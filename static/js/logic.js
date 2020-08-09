@@ -1,5 +1,5 @@
 // Add console.log to check to see if our code is working.
-console.log("master");
+console.log("linestrings");
 
 // Create the map object with a center and zoom level.
 // let map = L.map('mapid').setView([40.7, -94.5], 4);
@@ -100,7 +100,7 @@ let baseMaps = {
 // Pass our map layers into our layers control and add the layers control to the map.
 L.control.layers(baseMaps).addTo(map);
 
-let airportData = "https://github.com/suzanne-wilson/mapping_earthquakes/tree/master/majorAirports.json";
+let airportData = "https://raw.githubusercontent.com/suzanne-wilson/mapping_earthquakes/master/majorAirports.json";
 // let airportData = majorAirports;
 // Grabbing our GeoJSON data.
 /// Grabbing our GeoJSON data.
